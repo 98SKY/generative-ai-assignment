@@ -1,7 +1,6 @@
 # Python Data Structures Assignment
 
-This repository contains solutions for **Assignment 1 — Python Data Structures** from **Tutedude Generative AI Course**.
-
+This repository contains solutions for **Assignment 1 — Python Data Structures**
 The goal of this assignment is to demonstrate correct usage of core Python data structures:
 
 * Lists
@@ -72,22 +71,7 @@ Assignment_1_Python_Data_Structures/
 
 Open terminal inside the folder and run:
 
-```bash
 python3 task1_product_collections.py
 python3 task2_categories_sets.py
 python3 task3_pricing_dictionary.py
 python3 task4_combined_operations.py
-```
-
----
-
-## 📝 Notes
-
-* Only basic Python concepts are used as required.
-* Code is kept simple and readable.
-* Each task is implemented in a separate file as instructed.
-
----
-
-**Author:** Sunil Kumar
-**Course:** Tutedude Generative AI
