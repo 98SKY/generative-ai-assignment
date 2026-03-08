@@ -14,7 +14,10 @@ sales = {
 
 selected_month = st.selectbox("Choose Month:", months)
 
+# Show selected month sales
 st.metric("Sales for Selected Month", sales[selected_month])
 
+# Bar chart of all months
 st.write("### Monthly Sales Overview")
+
 st.bar_chart(list(sales.values()))
