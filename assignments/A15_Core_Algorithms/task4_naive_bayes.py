@@ -1,0 +1,29 @@
+import pandas as pd
+
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import GaussianNB
+
+df = pd.read_csv("data.csv")
+
+df["subscriber_category"] = pd.cut(
+    df["subscribers"],
+    bins=[0, 100000, 1000000, 10000000, float("inf")],
+    labels=["Small", "Medium", "Large", "Mega"]
+)
+
+X = df[["total_views", "total_videos"]]
+y = df["subscriber_category"]
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y,
+    test_size=0.2,
+    random_state=42
+)
+
+model = GaussianNB()
+
+model.fit(X_train, y_train)
+
+predictions = model.predict(X_test)
+
+print(predictions[:10])
