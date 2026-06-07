@@ -1,0 +1,5 @@
+LangChain is a framework for developing applications powered by language models.
+
+Document loaders help load data from multiple sources.
+
+Text splitters break large documents into smaller chunks.
