@@ -55,3 +55,20 @@ Start Command:
 ```bash
 streamlit run app.py --server.port $PORT --server.address 0.0.0.0
 ```
+
+## Deployment URL
+
+Render Deployment Link:
+
+https://movie-recommender-w2t2.onrender.com/
+
+## Validation
+
+✓ Application deployed successfully
+
+✓ Recommendation engine working
+
+✓ Streamlit UI functional
+
+✓ GitHub repository connected to Render
+
