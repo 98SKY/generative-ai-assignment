@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-openai
+langchain-chroma
+langchain-huggingface
+
+chromadb
+sentence-transformers
+wikipedia
+youtube-transcript-api
+
+pandas
+numpy
