@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langchain-core
+
+langchain-groq
+
+sqlalchemy
+
+pymysql
+
+mysql-connector-python
